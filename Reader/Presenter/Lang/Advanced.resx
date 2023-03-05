@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataUI_Error" xml:space="preserve">
+    <value>DataUI Error</value>
+  </data>
+  <data name="DataUI_Success" xml:space="preserve">
+    <value>DataUI Success</value>
+  </data>
+  <data name="Reboot_Error" xml:space="preserve">
+    <value>Reboot Error</value>
+  </data>
+  <data name="Reboot_Success" xml:space="preserve">
+    <value>Reboot Success</value>
+  </data>
+  <data name="SetBusAddress_Error" xml:space="preserve">
+    <value>SetBusAddress Error</value>
+  </data>
+  <data name="SetBusAddress_Success" xml:space="preserve">
+    <value>SetBusAddress Success</value>
+  </data>
+  <data name="SetBuzzerWidth_Error" xml:space="preserve">
+    <value>SetBuzzerWidth Error</value>
+  </data>
+  <data name="SetBuzzerWidth_Success" xml:space="preserve">
+    <value>SetBuzzerWidth Success</value>
+  </data>
+  <data name="SetBuzzer_Error" xml:space="preserve">
+    <value>SetBuzzer Error</value>
+  </data>
+  <data name="SetBuzzer_Success" xml:space="preserve">
+    <value>SetBuzzer Success</value>
+  </data>
+  <data name="SetFrequency_Error" xml:space="preserve">
+    <value>SetFrequency Error</value>
+  </data>
+  <data name="SetFrequency_Success" xml:space="preserve">
+    <value>SetFrequency Success</value>
+  </data>
+  <data name="SetGateway_Error" xml:space="preserve">
+    <value>SetGateway Error</value>
+  </data>
+  <data name="SetGateway_Success" xml:space="preserve">
+    <value>SetGateway Success</value>
+  </data>
+  <data name="SetIpAddress_Error" xml:space="preserve">
+    <value>SetIpAddress Error</value>
+  </data>
+  <data name="SetIpAddress_Success" xml:space="preserve">
+    <value>SetIpAddress Success</value>
+  </data>
+  <data name="SetMacAddress_Error" xml:space="preserve">
+    <value>SetMacAddress Error</value>
+  </data>
+  <data name="SetMacAddress_Success" xml:space="preserve">
+    <value>SetMacAddress Success</value>
+  </data>
+  <data name="SetMask_Error" xml:space="preserve">
+    <value>SetMask Error</value>
+  </data>
+  <data name="SetMask_Success" xml:space="preserve">
+    <value>SetMask Success</value>
+  </data>
+  <data name="SetModel_Error" xml:space="preserve">
+    <value>SetModel Error</value>
+  </data>
+  <data name="SetModel_Success" xml:space="preserve">
+    <value>SetModel Success</value>
+  </data>
+  <data name="SetName_Error" xml:space="preserve">
+    <value>SetName Error</value>
+  </data>
+  <data name="SetName_Success" xml:space="preserve">
+    <value>SetName Success</value>
+  </data>
+  <data name="SetPower_Error" xml:space="preserve">
+    <value>SetPower Error</value>
+  </data>
+  <data name="SetPower_Success" xml:space="preserve">
+    <value>SetPower Success</value>
+  </data>
+  <data name="SetRs232BaudRate_Error" xml:space="preserve">
+    <value>SetRs232BaudRate Error</value>
+  </data>
+  <data name="SetRs232BaudRate_Success" xml:space="preserve">
+    <value>SetRs232BaudRate Success</value>
+  </data>
+  <data name="SetSerialNumber_Error" xml:space="preserve">
+    <value>SetSerialNumber Error</value>
+  </data>
+  <data name="SetSerialNumber_Success" xml:space="preserve">
+    <value>SetSerialNumber Success</value>
+  </data>
+  <data name="SetSocketPortTcp_Error" xml:space="preserve">
+    <value>SetSocketPortTcp Error</value>
+  </data>
+  <data name="SetSocketPortTcp_Success" xml:space="preserve">
+    <value>SetSocketPortTcp Success</value>
+  </data>
+  <data name="SetSocketPortUdp_Error" xml:space="preserve">
+    <value>SetSocketPortUdp Error</value>
+  </data>
+  <data name="SetSocketPortUdp_Success" xml:space="preserve">
+    <value>SetSocketPortUdp Success</value>
+  </data>
+  <data name="SetTagFilter_Error" xml:space="preserve">
+    <value>SetTagFilter Error</value>
+  </data>
+  <data name="SetTagFilter_Success" xml:space="preserve">
+    <value>SetTagFilter Success</value>
+  </data>
+</root>

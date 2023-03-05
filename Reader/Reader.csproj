@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MySQL\MySQL.csproj" />
+    <ProjectReference Include="..\RFID\RFID.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Presenter\Lang\Advanced.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Advanced.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Presenter\Lang\Main.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Main.resx</DependentUpon>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\Gateway.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\SocketPortUdp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\SocketPortTcp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\Mask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\IpAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\MacAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Lang\Advanced.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Advanced.resx</DependentUpon>
+    </Compile>
+    <Compile Update="View\Lang\Main.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Main.resx</DependentUpon>
+    </Compile>
+    <Compile Update="View\Main\LogTransponder.cs" />
+    <Compile Update="View\Main\LogDevice.cs" />
+    <Compile Update="View\Main\SettingSw.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Presenter\Lang\Advanced.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Advanced.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Presenter\Lang\Main.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Main.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Lang\Advanced.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Advanced.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Lang\Main.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Main.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

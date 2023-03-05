@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reader", "Reader\Reader.csproj", "{EAB3BA23-788F-491E-9E83-0592B901C373}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RFID", "RFID\RFID.csproj", "{A8128036-79C9-4281-B314-4DC3FF012DAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySQL", "MySQL\MySQL.csproj", "{83F30686-703C-47BE-930C-0887069D2290}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{1ED163BB-8579-474C-93D3-2D1F758B7CA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAB3BA23-788F-491E-9E83-0592B901C373}.Debug|x86.ActiveCfg = Debug|x86
+		{EAB3BA23-788F-491E-9E83-0592B901C373}.Debug|x86.Build.0 = Debug|x86
+		{EAB3BA23-788F-491E-9E83-0592B901C373}.Release|x86.ActiveCfg = Release|x86
+		{EAB3BA23-788F-491E-9E83-0592B901C373}.Release|x86.Build.0 = Release|x86
+		{A8128036-79C9-4281-B314-4DC3FF012DAD}.Debug|x86.ActiveCfg = Debug|x86
+		{A8128036-79C9-4281-B314-4DC3FF012DAD}.Debug|x86.Build.0 = Debug|x86
+		{A8128036-79C9-4281-B314-4DC3FF012DAD}.Release|x86.ActiveCfg = Release|x86
+		{A8128036-79C9-4281-B314-4DC3FF012DAD}.Release|x86.Build.0 = Release|x86
+		{83F30686-703C-47BE-930C-0887069D2290}.Debug|x86.ActiveCfg = Debug|x86
+		{83F30686-703C-47BE-930C-0887069D2290}.Debug|x86.Build.0 = Debug|x86
+		{83F30686-703C-47BE-930C-0887069D2290}.Release|x86.ActiveCfg = Release|x86
+		{1ED163BB-8579-474C-93D3-2D1F758B7CA8}.Debug|x86.ActiveCfg = Debug|x86
+		{1ED163BB-8579-474C-93D3-2D1F758B7CA8}.Debug|x86.Build.0 = Debug|x86
+		{1ED163BB-8579-474C-93D3-2D1F758B7CA8}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {828C5BC0-AE28-49DF-A6C1-CEED226A19A4}
+	EndGlobalSection
+EndGlobal
